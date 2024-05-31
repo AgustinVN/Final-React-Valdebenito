@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+/* Header */ 
+.Header {
+  background-image: url(../public/Images/Header.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1800px;
+  height: 500px;
+}
+.Header h2 {
+  text-align: left;
+  font-size: x-large;
+  color: white;
+}
+.Header h1 {
+  color: white;
+}
+
+/* NavBar */ 
+.links {
+  margin: 50px;
+}
+/* Productos */ 
+.col {
+  width: 400px;
+  height: 400px;
+}
+.col img {
+  width: 300px;
+  height: 300px;
+}

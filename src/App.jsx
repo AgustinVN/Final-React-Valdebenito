@@ -4,21 +4,23 @@ import Header from './assets/Header'
 import NavBar from './assets/NavBar'
 import Contacto from './assets/Contacto'
 import Ofertas from './assets/Ofertas'
-import { BrowserRouter, Routes, Route, Router } from "react-router-dom"
+import Footer from './assets/Footer'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 function App() {
 
   return (
     <>
-      <div> 
+    <div> 
       <BrowserRouter>
-      <NavBar />
-        <Routes>
-          <Route exact path='/Contacto' element={<Contacto/>}/>
-          <Route exact path='/Ofertas' element={<Ofertas/>}/>
-          <Route exact path='/Catalogo' element={<Productos/>}/>
-        </Routes>
-        </BrowserRouter>
-      </div>
+        <NavBar />
+        <Header />
+          <Routes>
+            <Route exact path='/Ofertas' element={<Ofertas />} />
+            <Route exact path='/Contacto' element={<Contacto />} />
+          </Routes>
+        <Footer />
+      </BrowserRouter>
+    </div>
     </>
   )
 }

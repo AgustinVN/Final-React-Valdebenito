@@ -7,7 +7,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 1800px;
-  height: 500px;
+  height: 300px;
+  background-position-y: -200px;
 }
 .Header h2 {
   text-align: left;
@@ -17,17 +18,57 @@ body {
 .Header h1 {
   color: white;
 }
+/* Ofertas */
+.Ofertas-H1 {
+  text-align: center;
+  color: white;
+  font-size: medium;
+  margin-right: 400px;
+}
+/* Contacto */
+.Volver {
+  text-align: center;
+  margin-right: 300px;
+  font-size: 25px;
+}
+.Contacto-H1 {
+  font-size: 50px;
+  color: white;
+}
+.Contacto-H2 {
+  font-size: 25px;
+  color: white;
+}
+.Telefono {
+  margin-right: 400px;
+  color: white;
+}
+.Info-Contacto img {
+  width: 250px;
+  height: 250px;
 
-/* NavBar */ 
-.links {
-  margin: 50px;
 }
-/* Productos */ 
-.col {
-  width: 400px;
-  height: 400px;
+/* Footer */
+.Footer {
+  background-image: url(../public/Images/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -250px;
 }
-.col img {
-  width: 300px;
-  height: 300px;
+.Pestañas {
+  font-size: xx-large;
+  color: white;
+}
+
+.Footer-H1 {
+  text-align: center;
+  color: white;
+  margin-right: 300px;
+}
+.Redes {
+  width: 100%;
+}
+.Redes img {
+  width: 50px;
+  height: 50px;
 }
